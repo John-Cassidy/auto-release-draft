@@ -47,6 +47,16 @@ $ npm test
 
 > Review and alter launch.json based on [Gist](https://gist.github.com/jherax/231b2dda7f9cce20e13f4590594fdb70)
 
+## Install Packages
+
+```powershell
+
+npm i @actions/github
+npm i semver
+npm i @actions/exec
+
+```
+
 ## Install Developer Packages & Typescript Types
 
 ```powershell

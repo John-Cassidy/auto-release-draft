@@ -25,7 +25,9 @@
 	"author": "John Cassidy",
 	"license": "MIT",
 	"dependencies": {
-		"@actions/core": "^1.9.0"
+		"@actions/core": "^1.9.0",
+		"@actions/exec": "^1.1.1",
+		"@actions/github": "^5.0.3"
 	},
 	"devDependencies": {
 		"@types/jest": "^27.5.2",
