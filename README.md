@@ -4,6 +4,8 @@
 
 # Create a JavaScript Action using TypeScript
 
+[Credit Enrico Campidoglio for Pluralsight Video and sample repo](https://github.com/ecampidoglio/auto-release-draft)
+
 [Use this template](https://github.com/actions/typescript-action) to bootstrap the creation of a TypeScript action.:rocket:
 
 This template includes compilation support, tests, a validation workflow, publishing, and versioning guidance.  
@@ -16,11 +18,13 @@ Click the `Use this Template` and provide the new repo details for your action
 
 ## Auto-Release-Draft was created from the GitHub template
 
-This repo includes an action that will create a release:draft of all commits when you create new tag using semantic versioning on the repo where the action is attached:
+This repo includes an action that will create a release:draft of all commits when you create new tag using semantic versioning on the repo where the action is attached.
+
+### Create Tag
 
 > git tag -a <tag_name> -m "message"
 
-### Push your created tags
+### Push Tag
 
 By default, the “git push” command does not automatically push your tags to your remote repository.
 
