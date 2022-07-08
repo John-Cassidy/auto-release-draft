@@ -1,8 +1,8 @@
 {
-	"name": "typescript-action",
+	"name": "auto-release-draft",
 	"version": "0.0.0",
 	"private": true,
-	"description": "TypeScript template action",
+	"description": "Drafts a GitHub release with the changes introduced by a newly created version tag",
 	"main": "lib/main.js",
 	"scripts": {
 		"build": "tsc",
@@ -15,26 +15,31 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/actions/typescript-action.git"
+		"url": "git+https://github.com/John-Cassidy/auto-release-draft.git"
 	},
 	"keywords": [
 		"actions",
 		"node",
 		"setup"
 	],
-	"author": "",
+	"author": "John Cassidy",
 	"license": "MIT",
 	"dependencies": {
 		"@actions/core": "^1.9.0"
 	},
 	"devDependencies": {
+		"@types/jest": "^27.5.2",
+		"@types/jest-when": "^3.5.2",
 		"@types/node": "^16.10.5",
+		"@types/semver": "^7.3.10",
 		"@typescript-eslint/parser": "^5.30.5",
 		"@vercel/ncc": "^0.34.0",
 		"eslint": "^8.19.0",
 		"eslint-plugin-github": "^4.3.6",
 		"eslint-plugin-jest": "^26.5.3",
 		"jest": "^27.2.5",
+		"jest-circus": "^28.1.2",
+		"jest-when": "^3.5.1",
 		"js-yaml": "^4.1.0",
 		"prettier": "2.7.1",
 		"ts-jest": "^27.1.2",

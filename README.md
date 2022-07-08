@@ -43,8 +43,18 @@ $ npm test
 ...
 ```
 
-Debug the tests
+## Debug the tests
+
 > Review and alter launch.json based on [Gist](https://gist.github.com/jherax/231b2dda7f9cce20e13f4590594fdb70)
+
+## Install Developer Packages & Typescript Types
+
+```powershell
+
+npm i -D jest-when jest-circus
+npm i -D @types/jest @types/jest-when @types/semver
+
+```
 
 ## Change action.yml
 
