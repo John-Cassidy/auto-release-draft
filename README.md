@@ -32,6 +32,9 @@ To push your newly created tags, use the “git push” command and specify the 
 
 > git push --tags
 
+Push commits and Tag
+> git push && git push --tags
+
 ## Code in Main
 
 > First, you'll need to have a reasonably modern version of `node` handy. This won't work with versions older than 9, for instance.
