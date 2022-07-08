@@ -20,6 +20,14 @@ This repo includes an action that will create a release:draft of all commits whe
 
 > git tag -a <tag_name> -m "message"
 
+### Push your created tags
+
+By default, the “git push” command does not automatically push your tags to your remote repository.
+
+To push your newly created tags, use the “git push” command and specify the “–tags” to explicitly push tags to your remote Git repository.
+
+> git push --tags
+
 ## Code in Main
 
 > First, you'll need to have a reasonably modern version of `node` handy. This won't work with versions older than 9, for instance.
