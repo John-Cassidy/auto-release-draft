@@ -1,9 +1,8 @@
 # yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
-name: Build
+name: 'Build'
 on:
   push:
-    branches:
-      - master
+    branches: [main]
 jobs:
   build:
     name: Build and Test
