@@ -4,7 +4,7 @@
 
 # Create a JavaScript Action using TypeScript
 
-Use this template to bootstrap the creation of a TypeScript action.:rocket:
+[Use this template](https://github.com/actions/typescript-action) to bootstrap the creation of a TypeScript action.:rocket:
 
 This template includes compilation support, tests, a validation workflow, publishing, and versioning guidance.  
 
@@ -13,6 +13,12 @@ If you are new, there's also a simpler introduction.  See the [Hello World JavaS
 ## Create an action from this template
 
 Click the `Use this Template` and provide the new repo details for your action
+
+## Auto-Release-Draft was created from the GitHub template
+
+This repo includes an action that will create a release:draft of all commits when you create new tag using semantic versioning on the repo where the action is attached:
+
+> git tag -a <tag_name> -m "message"
 
 ## Code in Main
 
